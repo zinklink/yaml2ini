@@ -2,8 +2,8 @@
 
 This script converts YAML format to INI format.
 
-## Usage
+## Example
 
 ```
-python yaml2ini.py input.yaml output.ini
+python yaml2ini.py <input yaml file> <output ini file>
 ```
