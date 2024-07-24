@@ -27,5 +27,3 @@ if __name__ == "__main__":
     yaml_file = 'input.yaml'
     ini_file = 'output.ini'
     yaml_to_ini(yaml_file, ini_file)
-    yaml_to_ini(yaml_file, ini_file)
-    yaml_to_ini(yaml_file, ini_file)
