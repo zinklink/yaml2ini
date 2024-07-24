@@ -1,5 +1,6 @@
 from configparser import ConfigParser
 
+# pip install pyyaml
 import yaml
 
 
@@ -25,5 +26,6 @@ def yaml_to_ini(yaml_file, ini_file):
 if __name__ == "__main__":
     yaml_file = 'passwd.yml'
     ini_file = 'output.ini'
+    yaml_to_ini(yaml_file, ini_file)
     yaml_to_ini(yaml_file, ini_file)
     yaml_to_ini(yaml_file, ini_file)
