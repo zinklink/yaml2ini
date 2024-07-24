@@ -2,8 +2,8 @@
 
 This script converts YAML format to INI format.
 
-## Useage
+## Usage
 
-```shellscript
+```
 python yaml2ini.py input.yaml output.ini
 ```
