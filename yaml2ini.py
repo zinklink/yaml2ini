@@ -1,3 +1,4 @@
+import sys
 from configparser import ConfigParser
 
 # pip install pyyaml
@@ -24,6 +25,7 @@ def yaml_to_ini(yaml_file, ini_file):
 
 
 if __name__ == "__main__":
-    yaml_file = 'input.yaml'
-    ini_file = 'output.ini'
-    yaml_to_ini(yaml_file, ini_file)
+    if len(sys.argv) == 3:
+        yaml_file = sys.argv[1]
+        ini_file = sys.argv[2]
+        yaml_to_ini(yaml_file, ini_file)
